@@ -21,7 +21,14 @@ namespace ClassRoom
             Studerende elev3 = new Studerende("Martin", 6, 13);
             KlasseRum.ClassList.Add(elev3);
 
-            Console.WriteLine(KlasseRum);
+            Console.WriteLine(KlasseRum.ClassName);
+
+            foreach (var item in KlasseRum.ClassList)
+            {
+                Console.WriteLine(item.Name + " har fødselsdag d. " + item.Birthday + "/" + item.Birthmonth);
+            }
+
+            Console.ReadLine();
 
         }
     }

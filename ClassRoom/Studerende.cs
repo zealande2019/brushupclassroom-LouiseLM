@@ -28,11 +28,11 @@ namespace ClassRoom
             private set { _birthday = value; }
         }
 
-        public Studerende(string Name, int Birthmonth, int Birthday)
+        public Studerende(string name, int birthmonth, int birthday)
         {
-            Name = _name;
-            Birthmonth = _birthmonth;
-            Birthday = _birthday;
+            Name = name;
+            Birthmonth = birthmonth;
+            Birthday = birthday;
         }
     }
 }

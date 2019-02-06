@@ -9,7 +9,7 @@ namespace ClassRoom
     class KlasseRum
     {
         public string _className;
-        public List<Studerende> _classList;
+        public List<Studerende> _classList = new List<Studerende>();
         public DateTime _semesterStart;
 
         public string ClassName
