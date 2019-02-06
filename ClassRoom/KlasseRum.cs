@@ -20,6 +20,7 @@ namespace ClassRoom
         public List<Studerende> ClassList
         {
             get { return _classList; }
+            //set { _classList; }
 
         }
         public DateTime SemesterStart
