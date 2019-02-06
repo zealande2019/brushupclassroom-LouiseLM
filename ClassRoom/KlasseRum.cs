@@ -15,14 +15,17 @@ namespace ClassRoom
         public string ClassName
         {
             get { return _className; }
+            set { this._className = value; }
         }
         public List<Studerende> ClassList
         {
             get { return _classList; }
+
         }
         public DateTime SemesterStart
         {
             get { return _semesterStart; }
+            set { this._semesterStart = value; }
         }
 
         public KlasseRum()
