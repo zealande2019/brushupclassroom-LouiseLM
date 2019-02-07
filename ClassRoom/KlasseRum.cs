@@ -8,9 +8,9 @@ namespace ClassRoom
 {
     class KlasseRum
     {
-        public string _className;
-        public List<Studerende> _classList = new List<Studerende>();
-        public DateTime _semesterStart;
+        private string _className;
+        private List<Studerende> _classList = new List<Studerende>();
+        private DateTime _semesterStart;
 
         public string ClassName
         {
@@ -20,7 +20,6 @@ namespace ClassRoom
         public List<Studerende> ClassList
         {
             get { return _classList; }
-            //set { _classList; }
 
         }
         public DateTime SemesterStart

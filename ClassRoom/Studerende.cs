@@ -8,9 +8,9 @@ namespace ClassRoom
 {
     class Studerende
     {
-        public string _name;
-        public int _birthmonth;
-        public int _birthday;
+        private string _name;
+        private int _birthmonth;
+        private int _birthday;
 
         public string Name
         {
@@ -34,5 +34,32 @@ namespace ClassRoom
             Birthmonth = birthmonth;
             Birthday = birthday;
         }
+
+        public override string ToString()
+        {
+            return (Name + " har fødselsdag d. " + Birthday + "/" + Birthmonth);
+        }
+
+
+
+        //public string Årstid()
+        //{
+        //    if (Birthmonth = [12, 1, 2])
+        //    {
+        //        return "vinter";
+        //    }
+        //    else if (Birthmonth = [3, 4, 5])
+        //    {
+        //        return "Forår";
+        //    }
+        //    else if (Birthmonth = [6, 7, 8])
+        //    {
+        //        return "Sommer";
+        //    }
+        //    else if (Birthmonth = [9, 10, 11])
+        //    {
+        //        return "Efterår";
+        //    }
+        //}
     }
 }
